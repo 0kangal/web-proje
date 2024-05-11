@@ -1,39 +1,107 @@
-<!--Bugün 8 mayıs çarşamba temel olarak bugün githuba commit eklemeyi öğrendim bu bence projenin en önemli kısmı,
-proje dosyasında isteneleri inceledim ve kendime yol planı yaptım yarın projeye gerçekten başlayacağım.-->
 <!DOCTYPE html>
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
     <title>Muhammet Kangal</title>
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-    <h1>Ben Muhammet.</h1>
-    <h2>bir bilgisayar mühendisi.</h2>
-    <hr />
-    <a href="./dokumanlar/ozgecmis.html">Özgeçmiş</a>
-    <a href="./dokumanlar/sehir.html">Şehrim</a>
-    <a href="./dokumanlar/mirasimiz.html">Mirasımız</a>
-    <a href="./dokumanlar/ilgialanlarim.html">İlgi Alanlarım</a>
-    <a href="./dokumanlar/login.html">Login</a>
-    <a href="./dokumanlar/iletisim.html">İletişim</a>
-    <hr />
-    <h3>Kimim ve Vaktimi Nasıl Geçiririm</h3>
+    <header>
+        <ul>
+            <li>
+                <a href="./index.html">Ana Sayfa</a> 
+            </li>
+            <li>
+                <a href="./dokumanlar/ozgecmis.html">Özgeçmiş</a>
+            </li>
+            <li>
+                <a href="./dokumanlar/sehir.html">Şehrim</a>
+            </li>
+            <li>
+                <a href="./dokumanlar/mirasimiz.html">Mirasımız</a>
+            </li>
+            <li>
+                <a href="./dokumanlar/ilgialanlarim.html">İlgi Alanlarım</a>
+            </li>
+            <li>
+                <a href="./dokumanlar/login.html">Login</a>
+            </li>
+            <li>
+                <a href="./dokumanlar/iletisim.html">İletişim</a>
+            </li>
+        </ul>
+    </header>
 
-    <a href="https://www.udemy.com"><img src="./resimler/udemy.png" width="400px" height="250px"/> </a>
-    <a href="https://www.udemy.com"><h4>Udemy</h4></a>
-    <p>Bilgisayar mühendisliğine olan merakım, ortaokul yıllarında kodlamaya ilk adımımı atmamla başladı. Lise yıllarında Python gibi temel programlama dillerini öğrenerek bu alana olan ilgim daha da arttı ve sonunda Bilgisayar Mühendisliği bölümünde okumaya karar verdim. Udemy gibi platformlardaki günlük alıştırmalarım, teorik bilgiyi pratiğe dönüştürme fırsatı sağlıyor. Boş vakitlerimi neredeyse her gün, kodlama projeleri üzerinde çalışarak geçiriyorum.</p>
+    <div class="content">
+        <div class="item">
+            <img src="./img/kodlama.jpg" alt="bilgisayar ekranında kodlar"/>
+            <div class="text">
+                <div class="text-inner">
+                    <a href="https://www.udemy.com"><h3>Kodlama Çalışmalarım</h3></a>
+                    <p>Bilgisayar mühendisliğine olan merakım, ortaokul yıllarında kodlamaya ilk adımımı atmamla başladı. Lise yıllarında Python gibi temel programlama dillerini öğrenerek bu alana olan ilgim daha da arttı ve sonunda Bilgisayar Mühendisliği bölümünde okumaya karar verdim. Udemy gibi platformlardaki günlük alıştırmalarım, teorik bilgiyi pratiğe dönüştürme fırsatı sağlıyor. Boş vakitlerimi neredeyse her gün, kodlama projeleri üzerinde çalışarak geçiriyorum.</p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./img/spor.jpg" alt="spor salonu fotografı"/>
+            <div class="text">
+                <div class="text-inner">
+                    <a href="https://www.agirsaglam.com"><h3>Spor Hayatım</h3></a>
+                    <p>Spor yapmaya olan ilgim çocukluğumdan beri var. Hem takım sporları hem de bireysel sporlarla ilgilendim, ancak en çok keyif aldığım sporlar voleybol ve vücut geliştirme oldu. Sakarya Üniversitesi'nde boş vakitlerimi voleybol oynayarak geçiriyorum ve haftalık spor ve beslenme programlarıyla düzenli olarak vücut geliştirme yapıyorum.</p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./img/yemek.jpg" alt="tavuklu makarna fotografı"/>
+            <div class="text">
+                <div class="text-inner">
+                    <a href="https://www.youtube.com/@hataysandikici"><h3>Yemek Sevdam</h3></a>
+                    <p>Küçük yaşlarımdan itibaren ebeveynlerimin uzun çalışma saatleri nedeniyle yemek yapmayı öğrenmek zorunda kaldım. Zamanla, yemek yapmaya olan ilgim bir hobi haline geldi. Şu anda, çeşitli tarifleri deneyerek ve yemek yapmaktan büyük keyif alarak günlük yemeklerimi hazırlıyorum. Yemek yapmak sadece bir gereklilik değil, aynı zamanda yaratıcı bir süreç ve zevkli bir deneyim benim için.</p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./img/kutuoyunları.jpg" alt="kutu oyunları fotografı"/>
+            <div class="text">
+                <div class="text-inner">
+                    <a href="https://www.instagram.com/saugeek/"><h3>Kodlama Çalışmalarım</h3></a>
+                    <p>Masa oyunlarına olan ilgim küçük yaşlardan beri var, ancak küçük bir şehirde yaşamam nedeniyle bu ilgimi tam anlamıyla tatmin edemedim. Üniversiteye başladığımda, SauGeek gibi topluluklara katılarak bu tutkumu paylaştığım insanlarla tanışma ve yeni oyunlar keşfetme fırsatı buldum. Masa oyunları benim için sadece eğlence değil, aynı zamanda sosyal etkileşim ve beyin jimnastiği sağlayan bir aktivite.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <a href="https://www.agirsaglam.com"><img src="./resimler/spor.jpeg" width="400px" height="250px" /></a>
-    <a href="https://www.agirsaglam.com"><h4>Spor</h4></a>
-    <p>Spor yapmaya olan ilgim çocukluğumdan beri var. Hem takım sporları hem de bireysel sporlarla ilgilendim, ancak en çok keyif aldığım sporlar voleybol ve vücut geliştirme oldu. Sakarya Üniversitesi'nde boş vakitlerimi voleybol oynayarak geçiriyorum ve haftalık spor ve beslenme programlarıyla düzenli olarak vücut geliştirme yapıyorum.</p>
 
-    <a href="https://www.youtube.com/@hataysandikici"><img src="./resimler/yemek.jpeg" width="250px" height="250px" /></a>
-    <a href="https://www.youtube.com/@hataysandikici"><h4>Yemek Yapmak</h4></a>
-    <p>Küçük yaşlarımdan itibaren ebeveynlerimin uzun çalışma saatleri nedeniyle yemek yapmayı öğrenmek zorunda kaldım. Zamanla, yemek yapmaya olan ilgim bir hobi haline geldi. Şu anda, çeşitli tarifleri deneyerek ve yemek yapmaktan büyük keyif alarak günlük yemeklerimi hazırlıyorum. Yemek yapmak sadece bir gereklilik değil, aynı zamanda yaratıcı bir süreç ve zevkli bir deneyim benim için.</p>
 
-    <a href="https://www.instagram.com/saugeek/"><img src="./resimler/saugeek.jpeg" width="250px" height="250px" /></a>
-    <a href="https://www.instagram.com/saugeek/"><h4>SauGeek</h4></a>
-    <p>Masa oyunlarına olan ilgim küçük yaşlardan beri var, ancak küçük bir şehirde yaşamam nedeniyle bu ilgimi tam anlamıyla tatmin edemedim. Üniversiteye başladığımda, SauGeek gibi topluluklara katılarak bu tutkumu paylaştığım insanlarla tanışma ve yeni oyunlar keşfetme fırsatı buldum. Masa oyunları benim için sadece eğlence değil, aynı zamanda sosyal etkileşim ve beyin jimnastiği sağlayan bir aktivite.</p>
 
-</body>
-</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
