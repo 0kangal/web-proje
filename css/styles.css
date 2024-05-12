@@ -17,6 +17,10 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 header{
     position: fixed;
     top: 0;
@@ -24,11 +28,30 @@ header{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: right;
     padding: 20px 100px;
     transition: all ease 0.5s;
     z-index: 99999;
 }
+
+#logo ul li{
+    display: inline-block;
+
+}
+
+.logo-yazi{
+    color: #fff;
+    transition: all ease 0.5s;
+}
+
+#logo1{
+    font-size: xx-large;
+}
+
+#logo2{
+    font-size: larger;
+}
+
 
 header ul li{
     display: inline-block;
@@ -36,9 +59,21 @@ header ul li{
 }
 
 header ul li a{
-    color: #000;
+    color: #fff;
     transition: all ease 0.5s;
     font-weight: 500;
+}
+
+header:hover{
+    background-color: #fff;
+}
+
+header:hover a, header:hover .logo-yazi{
+    color: #000;
+}
+
+#my-nav-id{
+    float: right;
 }
 
 
@@ -88,6 +123,7 @@ header ul li a{
 
 .content .item .text .text-inner {
     width: 100%; /* Text içeriğinin genişliği ayarlandı */
+    
 }
 
 .content .item .text h3 {
