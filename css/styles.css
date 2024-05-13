@@ -34,25 +34,6 @@ header{
     z-index: 99999;
 }
 
-#logo ul li{
-    display: inline-block;
-
-}
-
-.logo-yazi{
-    color: #fff;
-    transition: all ease 0.5s;
-}
-
-#logo1{
-    font-size: xx-large;
-}
-
-#logo2{
-    font-size: larger;
-}
-
-
 header ul li{
     display: inline-block;
     margin: 0 15px;
