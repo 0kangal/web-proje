@@ -1,81 +1,53 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ana Sayfa</title>
+    <title>İlgi Alanlarım</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head> 
 
-    <link rel="stylesheet" href="./css/index-styles.css" />
-</head>
 <body>
-    <header id="index-header">
-        <div>
-            <nav class="my-nav-class">
-            <ul>
-                <li>
-                    <a href="./index.html">Ana Sayfa</a> 
-                </li>
-                <li>
-                    <a href="./documents/ozgecmis.html">Özgeçmiş</a>
-                </li>
-                <li>
-                    <a href="./documents/sehir.html">Şehrim</a>
-                </li>
-                <li>
-                    <a href="./documents/mirasimiz.html">Mirasımız</a>
-                </li>
-                <li>
-                    <a href="./documents/ilgialanlarim.html">İlgi Alanlarım</a>
-                </li>
-                <li>
-                    <a href="./documents/login.html">Login</a>
-                </li>
-                <li>
-                    <a href="./documents/iletisim.html">İletişim</a>
-                </li>
-            </ul>
-            </nav>
-        </div>
-    </header>
-
-    <div class="content">
-        <div class="item">
-            <a href="https://www.udemy.com"><img src="./img/kodlama.jpg" alt="bilgisayar ekranında kodlar"/></a>
-            <div class="text">
-                <div class="text-inner">
-                    <a href="https://www.udemy.com"><h3>Kodlama Çalışmalarım</h3></a>
-                    <p>Bilgisayar mühendisliğine olan merakım, ortaokul yıllarında kodlamaya ilk adımımı atmamla başladı. Lise yıllarında Python gibi temel programlama dillerini öğrenerek bu alana olan ilgim daha da arttı ve sonunda Bilgisayar Mühendisliği bölümünde okumaya karar verdim. Udemy gibi platformlardaki günlük alıştırmalarım, teorik bilgiyi pratiğe dönüştürme fırsatı sağlıyor. Boş vakitlerimi neredeyse her gün, kodlama projeleri üzerinde çalışarak geçiriyorum.</p>
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html" style="font-size: xx-large; font-weight: 700;">Ben Muhammet.
+                <span style="display: block; font-size: small; font-weight: 400;">bir bilgisayar mühendisi.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Hakkımda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./documents/ozgecmis.html">Özgeçmiş</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./documents/sehir.html">Şehrim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./documents/mirasimiz.html">Mirasımız</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./documents/ilgialanlarim.html">İlgi Alanlarım</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./documents/iletisim.html">İletişim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./documents/login.html">Login</a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="item">
-            <a href="https://www.agirsaglam.com"><img src="./img/spor.jpg" alt="spor salonu fotografı"/></a>
-            <div class="text">
-                <div class="text-inner">
-                    <a href="https://www.agirsaglam.com"><h3>Spor Hayatım</h3></a>
-                    <p>Spor yapmaya olan ilgim çocukluğumdan beri var. Hem takım sporları hem de bireysel sporlarla ilgilendim, ancak en çok keyif aldığım sporlar voleybol ve vücut geliştirme oldu. Sakarya Üniversitesi'nde boş vakitlerimi voleybol oynayarak geçiriyorum ve haftalık spor ve beslenme programlarıyla düzenli olarak vücut geliştirme yapıyorum.</p>
-                </div>
-            </div>
-        </div>
-        <div class="item">
-            <a href="https://www.youtube.com/@hataysandikici"><img src="./img/yemek.jpg" alt="tavuklu makarna fotografı"/></a>
-            <div class="text">
-                <div class="text-inner">
-                    <a href="https://www.youtube.com/@hataysandikici"><h3>Yemek Sevdam</h3></a>
-                    <p>Küçük yaşlarımdan itibaren ebeveynlerimin uzun çalışma saatleri nedeniyle yemek yapmayı öğrenmek zorunda kaldım. Zamanla, yemek yapmaya olan ilgim bir hobi haline geldi. Şu anda, çeşitli tarifleri deneyerek ve yemek yapmaktan büyük keyif alarak günlük yemeklerimi hazırlıyorum. Yemek yapmak sadece bir gereklilik değil, aynı zamanda yaratıcı bir süreç ve zevkli bir deneyim benim için.</p>
-                </div>
-            </div>
-        </div>
-        <div class="item">
-            <a href="https://www.instagram.com/saugeek/"><img src="./img/kutuoyunları.jpg" alt="kutu oyunları fotografı"/></a>
-            <div class="text">
-                <div class="text-inner">
-                    <a href="https://www.instagram.com/saugeek/"><h3>Hobilerim</h3></a>
-                    <p>Masa oyunlarına olan ilgim küçük yaşlardan beri var, ancak küçük bir şehirde yaşamam nedeniyle bu ilgimi tam anlamıyla tatmin edemedim. Üniversiteye başladığımda, SauGeek gibi topluluklara katılarak bu tutkumu paylaştığım insanlarla tanışma ve yeni oyunlar keşfetme fırsatı buldum. Masa oyunları benim için sadece eğlence değil, aynı zamanda sosyal etkileşim ve beyin jimnastiği sağlayan bir aktivite.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    </nav>
 
 
 
@@ -83,31 +55,6 @@
 
 
 
+</body>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
+</html>

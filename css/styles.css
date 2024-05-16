@@ -1,0 +1,15 @@
+#slider-sehir {
+    width: 50%; /* Slider genişliği */
+    margin: auto; /* Sayfa ortalaması */
+}
+
+.navbar-brand{
+    font-size: xx-large; 
+    font-weight: 700;
+}
+
+.navbar-brand > span{
+    display: block;
+    font-size: medium;
+    font-weight: 400;
+}
