@@ -1,8 +1,11 @@
+/* slider baslangic*/
 #slider-sehir {
     width: 50%; /* Slider genişliği */
     margin: auto; /* Sayfa ortalaması */
 }
+/* slider bitis*/
 
+/* logo-yazi baslangic */
 .navbar-brand{
     font-size: xx-large; 
     font-weight: 700;
@@ -13,3 +16,18 @@
     font-size: medium;
     font-weight: 400;
 }
+/* logo-yazi bitis */
+
+.footer-text {
+    color: #6c757d; /* Gri metin rengi */
+}
+
+
+@media (min-width: 992px) {   /* Büyük ekranlarda sabit footer */
+    #body-mirasimiz footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
