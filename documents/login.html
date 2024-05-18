@@ -11,7 +11,8 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/styles.css" />
-</head> 
+    <link rel="stylesheet" href="../css/login.css" />
+</head>
 
 <body>
 
@@ -52,17 +53,33 @@
         </div>
     </nav>
     <!-- header bitis -->
-    <div class="container" style="height: 10vh;"></div>
+    
 
+        
+        <form action="../php/login.php" method="post">
+            <label for="username">Kullanıcı Adı:</label>
+            <input type="email" id="username" name="username" required placeholder="kullanıcı adı giriniz">
+            <br>
+            <label for="password">Şifre:</label>
+            <input type="password" id="password" name="password" required placeholder="şifre giriniz">
+            <div class="form-text text-secondary">kullanıcı adı: g231210019@ogr.sakarya.edu.tr</div>
+            <div class="form-text text-secondary">şifre: g231210019</div>
+
+            <br>
+            <button type="submit">Giriş Yap</button>
+        </form>
+    
 
 
     <!-- footer baslangic -->
-    <footer class="bg-dark py-3 ">
+    <footer class="bg-dark py-3 fixed-bottom">
         <div class="container">
             <ul class="nav justify-content-center border-bottom border-secondary pb-3 mb-3">
                 <li class="nav-item"><a href="../index.html" class="nav-link px-2 link-secondary">Home</a></li>
-                <li class="nav-item"><a href="https://github.com/0kangal" class="nav-link px-2 link-secondary">Github</a></li>
-                <li class="nav-item"><a href="https://www.instagram.com/muhammetkangall/" class="nav-link px-2 link-secondary">Instagram</a></li>
+                <li class="nav-item"><a href="https://github.com/0kangal"
+                        class="nav-link px-2 link-secondary">Github</a></li>
+                <li class="nav-item"><a href="https://www.instagram.com/muhammetkangall/"
+                        class="nav-link px-2 link-secondary">Instagram</a></li>
             </ul>
             <p class="text-center footer-text">@Web Teknolojileri Proje 2024</p>
         </div>
